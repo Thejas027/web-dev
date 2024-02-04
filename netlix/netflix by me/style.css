@@ -1,0 +1,274 @@
+body{
+    background-color: black;
+}
+
+.back-ground{
+    height: 800px; 
+    background-size:cover;
+    margin-top: -15px;
+    
+}
+.logo{
+    height: 150px;
+    background-color: black;
+    display: flex;
+}
+.movie
+{
+    height: 23px;
+    width: 85px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    top: 63px;
+    right: 400px;
+    margin: 15px;
+    font-size: 18px;
+    border: 0.5px solid white;
+}
+#net{
+    color: red;
+    font-size: 50px;
+    text-shadow: black 2px 5px;
+    position: relative;
+    left: 25px;
+}
+
+#eng{
+    height: 32px;
+    width: 126px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+select{
+    margin: 75px;
+    position: relative;
+    left: 720px;
+
+}
+button{
+   margin: 75px;
+   position: relative;
+   left: 600px;
+   border-radius: 5px;
+ 
+}
+#sig{
+    width: 100px;
+    height: 32px;
+    background-color: red;
+    color: white;
+}
+.text{
+    color:white;
+       font-family: 'Courier New', Courier, monospace;
+     font-size: 40px;
+     font-weight: 900;
+     position:absolute;
+     left: 400px;
+     bottom: 350px;
+}
+.text2{
+    color:white;
+       font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+     font-weight: 900;
+     position:absolute;
+     left: 400px;
+     bottom: 300px;
+}
+
+.email input{
+    height:56px;
+    width: 356px;
+    background-color: rgb(22, 13, 13);
+   opacity: 1;
+   font-size: 20px;
+    position: relative;
+    top:  200px;
+    left: 420px;
+}
+.email select{
+    height: 56px;
+   width:256px;
+   font-size: 25px;
+  font-weight: 300;
+   background-color: red;
+   color: white;
+   position: relative;
+   top: 200px;
+   left: 380px;
+}
+
+
+/* main section  */
+.main-section{
+    height: 1600px;
+    background-color: black;
+color: white;
+
+}
+
+
+
+/*recently added section*/
+
+.popular
+{
+    font-size: 40px;
+    font-family: cursive;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+
+.popular-section{
+    height: 250px;
+     border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ph{
+    height: 150px;
+    width: 260px;
+    border: 0.5px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+/* CSS for movie sectio */
+.movie-space{
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+.hollywood{
+    height: 250px;
+    /* margin-top: 15px; */
+    /* border: 2px solid black; */
+    /* margin-bottom: 15px; */
+
+}
+.hw-movie{
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hollywood p{
+    font-family: cursive;
+    margin-left: 15px;
+}
+
+.hm
+{
+    height: 150px;
+    width: 260px;
+    border: 0.5px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.bollywood{
+    height: 250px;
+     border: 2px solid black;
+}
+.bw-movie{
+display: flex;
+
+justify-content: space-evenly;
+align-items: center;
+}
+
+.bollywood p{
+    font-family: cursive;
+    margin-left: 15px;
+}
+.bm{
+    height: 150px;
+    width: 260px;
+    border: 0.5px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+/* CSS for series section */
+.series-space
+{
+    font-size: 40px;
+    font-family: cursive;
+}
+.series-section{
+    height: 250px;
+
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ss-1{
+    height: 150px;
+    width: 260px;
+    border: 0.5px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+/* popular hits section */
+.pop
+{
+    font-size: 40px;
+    font-family: cursive;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+
+.pop-sec{
+    height: 250px;
+     border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pp{
+    height: 150px;
+    width: 260px;
+    border: 0.5px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+/* CSS for footer */
+
+
+.ques{
+    position: relative;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.ques pre{
+    font-size: large;
+    font-weight: 400;
+}
+.base-correction{
+    height: 170px;
+    background-color:black;
+    color: white;
+
+}
+.footer
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.opt{
+    height: 50px;
+    background-color: black;
+}
